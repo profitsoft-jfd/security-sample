@@ -18,14 +18,12 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
 
 @Service
 @RequiredArgsConstructor
 public class UserService implements UserDetailsService {
 
-  public static final String PRIV_PREFIX = "PRIV_";
   private final UserRepository userRepository;
 
   private final RoleRepository roleRepository;
