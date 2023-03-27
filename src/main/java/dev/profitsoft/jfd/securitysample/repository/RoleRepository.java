@@ -9,6 +9,9 @@ import java.util.Optional;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
+/**
+ * This is a repository for roles.
+ */
 @Repository
 public class RoleRepository {
 
