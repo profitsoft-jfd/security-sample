@@ -22,9 +22,6 @@ import java.util.List;
 
 /**
  * This is a service for users.
- * <p>
- *   It implements {@link UserDetailsService} to provide the user details for Spring Security.
- *   It also provides the user details for the API.
  */
 @Service
 @RequiredArgsConstructor
