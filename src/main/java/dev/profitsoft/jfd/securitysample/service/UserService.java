@@ -20,6 +20,12 @@ import org.springframework.stereotype.Service;
 import java.util.Collection;
 import java.util.List;
 
+/**
+ * This is a service for users.
+ * <p>
+ *   It implements {@link UserDetailsService} to provide the user details for Spring Security.
+ *   It also provides the user details for the API.
+ */
 @Service
 @RequiredArgsConstructor
 public class UserService implements UserDetailsService {
